@@ -56,3 +56,5 @@
 ;;org mode setting
 (require 'org)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+
+(global-linum-mode 1)
