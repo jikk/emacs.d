@@ -57,5 +57,9 @@
 (require 'org)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 
-;;linum on
 (global-linum-mode 1)
+
+;;c style
+(setq c-set-style "ellemtel")
+(setq c-default-style "ellemtel")
+
