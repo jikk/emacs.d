@@ -14,7 +14,7 @@ fi
 
 echo "Connecting to " $ADDR
 
-for IMG in tfa++
+for IMG in tfa tfa++
 do
    echo "mounting ${IMG}"
    mkdir /Volumes/${IMG}
