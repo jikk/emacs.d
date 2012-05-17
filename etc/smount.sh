@@ -14,7 +14,8 @@ fi
 
 echo "Connecting to " $ADDR
 
-for IMG in tfa++ tfa
+
+for IMG in tfa tfa++
 do
    CHK_MNT=`df |grep ${IMG} | wc -l`
    if [ $CHK_MNT == 0 ] ; then
