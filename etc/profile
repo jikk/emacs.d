@@ -5,9 +5,10 @@ alias sos8='ssh sos8.cs.columbia.edu'
 alias sos14='ssh sos14.cs.columbia.edu'
 alias medusa='ssh medusa.cs.columbia.edu'
 alias p='cd /Volumes/tfa++/profiler'
-alias sc='cd /Volumes/tfa++/analyzer'
+alias sc='cd /Volumes/tfa-parallel/analyzer'
 alias kl='cd /Volumes/klee-arb'
-alias doc='cd /Users/jikk/tfa/doc/tfa_ndss_paper'
+alias doc='cd /Volumes/doc'
+alias ida='cd /Volumes/ida_scripts'
 
 #python setup
 export PYTHONSTARTUP=$HOME/.pythonrc.py

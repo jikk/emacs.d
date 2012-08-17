@@ -7,7 +7,7 @@ error_msg () {
 
 if [ -z  "$1" ]
 then
-    ADDR=sos14.cs.columbia.edu
+    ADDR=sos8.cs.columbia.edu
 else
     ADDR=$1
 fi
@@ -15,7 +15,7 @@ fi
 echo "Connecting to " $ADDR
 
 
-for IMG in tfa tfa++
+for IMG in tfa-parallel shadow_mem doc valgrind-3.7.0
 do
    CHK_MNT=`df |grep ${IMG} | wc -l`
    if [ $CHK_MNT == 0 ] ; then
