@@ -1,3 +1,7 @@
+
+
+
+
 ;;load paths
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'load-path "~/.emacs.d/vendor/pymacs-0.24-beta2")
@@ -57,6 +61,7 @@
 (require 'org)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 
+(require 'linum)
 (global-linum-mode 1)
 
 ;;c style
