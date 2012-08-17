@@ -16,6 +16,7 @@ echo "Connecting to " $ADDR
 
 
 for IMG in tfa++ tfa-parallel doc shadow_mem  # tfa libdft-ng_linux-i386 ida_scripts
+
 do
    CHK_MNT=`df |grep ${IMG} | wc -l`
    if [ $CHK_MNT == 0 ] ; then
