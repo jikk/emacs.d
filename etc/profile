@@ -9,6 +9,7 @@ alias sc='cd /Volumes/tfa-parallel/analyzer'
 alias kl='cd /Volumes/klee-arb'
 alias doc='cd /Volumes/doc'
 alias ida='cd /Volumes/ida_scripts'
+alias oc='rlwrap ocaml'
 
 #python setup
 export PYTHONSTARTUP=$HOME/.pythonrc.py
