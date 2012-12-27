@@ -7,7 +7,7 @@ error_msg () {
 
 if [ -z  "$1" ]
 then
-    ADDR=sos8.cs.columbia.edu
+    ADDR=sos15.cs.columbia.edu
 else
     ADDR=$1
 fi

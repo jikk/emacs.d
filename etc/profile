@@ -4,6 +4,7 @@ alias dt='ssh kj2181@users.isi.deterlab.net'
 alias chum='ssh jikk@chumship.cs.columbia.edu'
 alias sos8='ssh sos8.cs.columbia.edu'
 alias sos14='ssh sos14.cs.columbia.edu'
+alias sos15='ssh sos15.cs.columbia.edu'
 alias medusa='ssh medusa.cs.columbia.edu'
 alias p='cd /Volumes/tfa++/profiler'
 alias sc='cd /Volumes/tfa-parallel/analyzer'
@@ -55,3 +56,12 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 export PATH=$PATH:/opt/sw/bin
+
+##
+# Your previous /Users/jikk/.profile file was backed up as /Users/jikk/.profile.macports-saved_2012-11-30_at_20:33:24
+##
+
+# MacPorts Installer addition on 2012-11-30_at_20:33:24: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
