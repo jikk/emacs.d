@@ -2,6 +2,7 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'load-path "~/.emacs.d/vendor/pymacs-0.24-beta2")
 (add-to-list 'load-path "~/.emacs.d/vendor/auto-complete-1.2")
+(add-to-list 'load-path "~/.emacs.d/vendor/cc-mode")
 
 ;;start-up messages 
 (setq inhibit-startup-message t)
@@ -42,6 +43,7 @@
 (require 'org)
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 
+(require 'linum)
 (global-linum-mode 1)
 
 ;;c style
@@ -62,4 +64,4 @@
 (setq mac-option-modifier 'meta)
 
 (require 'xcscope)
-
+(auto-fill-mode 1)
