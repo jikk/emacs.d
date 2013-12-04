@@ -1,3 +1,4 @@
+
 #alias list
 alias dt='ssh kj2181@users.isi.deterlab.net'
 alias chum='ssh jikk@chumship.cs.columbia.edu'
@@ -40,6 +41,32 @@ export PATH=$PATH:/Users/jikk/llvm/Release+Asserts/bin/
 ulimit -n 4096
 ulimit -S -n 1024
 
+##
+# Your previous /Users/jikk/.profile file was backed up as /Users/jikk/.profile.macports-saved_2012-07-27_at_23:24:53
+##
+
+# MacPorts Installer addition on 2012-07-27_at_23:24:53: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+##
+# Your previous /Users/jikk/.profile file was backed up as /Users/jikk/.profile.macports-saved_2012-07-27_at_23:41:43
+##
+
+# MacPorts Installer addition on 2012-07-27_at_23:41:43: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+export PATH=$PATH:/opt/sw/bin
+
+##
+# Your previous /Users/jikk/.profile file was backed up as /Users/jikk/.profile.macports-saved_2012-11-30_at_20:33:24
+##
+
+# MacPorts Installer addition on 2012-11-30_at_20:33:24: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
 
 #android build settings
 export USE_CCACHE=1

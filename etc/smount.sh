@@ -15,8 +15,7 @@ fi
 echo "Connecting to " $ADDR
 
 
-#for IMG in tfa-parallel tfa++ libdft-ng doc
-for IMG in tfa-parallel doc tfa
+for IMG in tfa++ tfa-parallel doc shadow_mem  # tfa libdft-ng_linux-i386 ida_scripts
 do
    #CHK_MNT=`df |grep ${IMG} | wc -l`
     CHK_MNT=0
