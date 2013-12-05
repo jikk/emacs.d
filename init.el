@@ -59,4 +59,10 @@
 (setq mac-option-modifier 'meta)
 
 (require 'xcscope)
+(setq cscope-do-not-update-database t)
 
+;I hate tabs!!!
+(setq c-basic-indent 2)
+(setq tab-width 4)
+(setq indent-tabs-mode nil)
+(column-number-mode 1)
