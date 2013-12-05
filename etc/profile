@@ -4,12 +4,15 @@ alias dt='ssh kj2181@users.isi.deterlab.net'
 alias chum='ssh jikk@chumship.cs.columbia.edu'
 alias sos8='ssh sos8.cs.columbia.edu'
 alias sos14='ssh sos14.cs.columbia.edu'
+alias sos15='ssh sos15.cs.columbia.edu'
 alias medusa='ssh medusa.cs.columbia.edu'
 alias p='cd /Volumes/tfa++/profiler'
 alias sc='cd /Volumes/tfa-parallel/analyzer'
 alias kl='cd /Volumes/klee-arb'
-alias doc='cd /Volumes/doc'
+alias doc='cd /Users/jikk/doc/pshadow_paper'
 alias ida='cd /Volumes/ida_scripts'
+alias pri='cd /Volumes/tfa-parallel/pri_runtime/src'
+alias oc='rlwrap ocaml'
 
 #python setup
 export PYTHONSTARTUP=$HOME/.pythonrc.py
@@ -36,6 +39,7 @@ export PATH=$PATH:/Users/jikk/llvm/Release+Asserts/bin/
 
 #system parameters
 ulimit -n 4096
+ulimit -S -n 1024
 
 ##
 # Your previous /Users/jikk/.profile file was backed up as /Users/jikk/.profile.macports-saved_2012-07-27_at_23:24:53
@@ -55,3 +59,23 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 export PATH=$PATH:/opt/sw/bin
+
+##
+# Your previous /Users/jikk/.profile file was backed up as /Users/jikk/.profile.macports-saved_2012-11-30_at_20:33:24
+##
+
+# MacPorts Installer addition on 2012-11-30_at_20:33:24: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+#android build settings
+export USE_CCACHE=1
+
+##
+# Your previous /Users/jikk/.profile file was backed up as /Users/jikk/.profile.macports-saved_2013-11-25_at_11:07:06
+##
+
+# MacPorts Installer addition on 2013-11-25_at_11:07:06: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+

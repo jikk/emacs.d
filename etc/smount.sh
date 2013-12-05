@@ -7,7 +7,7 @@ error_msg () {
 
 if [ -z  "$1" ]
 then
-    ADDR=sos8.cs.columbia.edu
+    ADDR=sos15.cs.columbia.edu
 else
     ADDR=$1
 fi
@@ -16,9 +16,9 @@ echo "Connecting to " $ADDR
 
 
 for IMG in tfa++ tfa-parallel doc shadow_mem  # tfa libdft-ng_linux-i386 ida_scripts
-
 do
-   CHK_MNT=`df |grep ${IMG} | wc -l`
+   #CHK_MNT=`df |grep ${IMG} | wc -l`
+    CHK_MNT=0
    if [ $CHK_MNT == 0 ] ; then
        echo "mounting ${IMG}"
        mkdir /Volumes/${IMG}

@@ -2,6 +2,7 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'load-path "~/.emacs.d/vendor/pymacs-0.24-beta2")
 (add-to-list 'load-path "~/.emacs.d/vendor/auto-complete-1.2")
+(add-to-list 'load-path "~/.emacs.d/vendor/cc-mode")
 
 ;;start-up messages 
 (setq inhibit-startup-message t)
@@ -66,3 +67,5 @@
 (setq tab-width 4)
 (setq indent-tabs-mode nil)
 (column-number-mode 1)
+
+(auto-fill-mode 1)
